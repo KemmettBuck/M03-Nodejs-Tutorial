@@ -11,5 +11,7 @@
 //    console.log('in the interval');
 // }, 1000);
 
-console.log(_dirname);
-console.log(_filename);
+// console.log(_dirname);
+// console.log(_filename);
+
+console.log(document.querySelector);
