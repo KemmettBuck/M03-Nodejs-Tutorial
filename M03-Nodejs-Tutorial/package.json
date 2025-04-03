@@ -1,7 +1,7 @@
 {
   "name": "m03-nodejs-tutorial",
   "version": "1.0.0",
-  "main": "files.js",
+  "main": "",
   "directories": {
     "doc": "docs"
   },
