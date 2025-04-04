@@ -14,11 +14,7 @@ app.get('/', (req, res) => {
   const blogs = [
     {title: 'Yoshi finds the eggs', snippet: 'Lorem ipsum dolor sit amet consectetur'},
     {title: 'Mario finds the stars', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-<<<<<<< HEAD
-    {title: 'How to defeat bowser in the castle', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-=======
     {title: 'How to defeat bowser in his castle', snippet: 'Lorem ipsum dolor sit amet consectetur'},
->>>>>>> b6d3315cfed4570961c6beb7c7b3bce3100de819
   ];
   res.render('index', { title: 'Home', blogs });
 });
