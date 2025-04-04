@@ -1,20 +1,25 @@
 {
-  "name": "m03-nodejs-tutorial",
+  "name": "crash-course",
   "version": "1.0.0",
-  "main": "",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "a node crash course",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshaunjp/node-crash-course.git"
+  },
+  "author": "net ninja",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/iamshaunjp/node-crash-course/issues"
+  },
+  "homepage": "https://github.com/iamshaunjp/node-crash-course#readme",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "lodash": "^4.17.21"
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
   }
 }
