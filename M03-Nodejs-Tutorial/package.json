@@ -1,20 +1,16 @@
 {
   "name": "m03-nodejs-tutorial",
   "version": "1.0.0",
-  "main": "",
+  "main": "server.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": ""
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "lodash": "^4.17.21"
-  }
+  "description": ""
 }
+
